@@ -17,22 +17,16 @@ A fast, threaded, and colorful Clickjacking vulnerability scanner built for bug 
 
 ---
 
-## 🖥️ Demo
+## 🖥️ Installation
 
 ```bash
-$ python3 clickjack_scan.py
+git clone https://github.com/nithin644/clickjacking.git
 
-[SKULL BANNER BLINKS IN COLOR]
+cd clickjacking
 
-=== Clickjacking Vulnerability Checker (Threaded) ===
-Enter a domain or path to file with domains: domains.txt
+chmod +x clickjacking.py
 
-[1/10] example.com - [NOT VULNERABLE]
-[2/10] target.io   - [VULNERABLE]
-...
+pip3 install -r requirements.txt --break-system-packages
 
-=== Scan Complete ===
-Total domains tested   : 10
-Vulnerable domains     : 3
-Not vulnerable domains : 7
-Vulnerable domains saved to: vulnerable_domains.txt
+python3 clickjacking.py
+

@@ -2,7 +2,7 @@
 
 A fast, threaded, and colorful Clickjacking vulnerability scanner built for bug bounty hunters and web security researchers. This tool checks whether target domains are vulnerable to UI redressing (Clickjacking) by analyzing security response headers.
 
-![Skull]((https://github.com/user-attachments/assets/2208448f-b285-4c22-88a1-68a532e65f54)) <!-- Optional: Replace with a hosted image of your ASCII art if desired -->
+![Skull](https://github.com/user-attachments/assets/2208448f-b285-4c22-88a1-68a532e65f54) <!-- Optional: Replace with a hosted image of your ASCII art if desired -->
 
 ---
 

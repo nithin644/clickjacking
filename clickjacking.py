@@ -77,8 +77,8 @@ def check_clickjacking(domain):
         else:
             return domain, True
 
-    except Exception as e:
-        return domain, f"Error: {str(e)}"
+    except requests.exceptions.RequestException:
+        return domain, "Site is not alive"
 
 def main():
     blinking_skull()
